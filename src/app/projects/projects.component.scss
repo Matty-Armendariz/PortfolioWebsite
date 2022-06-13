@@ -1,0 +1,27 @@
+html, body{
+    max-width:100%;
+    max-height:100%;
+    margin:0;
+    padding:0;
+    background-color: #1c1d25;
+}
+
+.hero{
+    background-color: #1c1d25;
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+    height: 100vh;
+}
+
+.project-container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card{
+    width: 200px;
+    height: 500px;
+    border: 2px solid black;
+}

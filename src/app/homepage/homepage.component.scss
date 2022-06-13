@@ -18,11 +18,16 @@ nav{
 }
 
 ul{
+    padding-top: 10px;
     display: flex;
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
+}
+
+ul.show{
+    display:block;
 }
 
 li{
@@ -85,4 +90,23 @@ p{
 
 .socials{
     margin-right: 20px;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media only screen and (max-width:1000px){
+    .hamburger{
+        padding-right: 25px;
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+
+    ul {
+        display: none;
+    }
 }

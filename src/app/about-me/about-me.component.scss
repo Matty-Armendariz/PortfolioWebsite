@@ -1,0 +1,29 @@
+html, body{
+    max-width:100%;
+    max-height:100%;
+    margin:0;
+    padding:0;
+    background-color: #1c1d25;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1c1d25;
+    height: 100vh;
+    padding: 60px;
+}
+
+h2{
+    font-size: 70px;
+    color: white;
+}
+
+p{
+    //font-size: 50px;
+    color: white;
+}
+
+.headshot{
+    width:250px;
+    border-radius:150px;
+}
